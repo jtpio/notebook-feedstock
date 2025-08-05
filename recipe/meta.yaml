@@ -1,4 +1,4 @@
-{% set version = "7.4.4" %}
+{% set version = "7.4.5" %}
 
 # the `if` avoids bot duplications
 {% if 1 %}{% set lab_version = ">=4.4.4,<4.5" %}{% endif %}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/notebook/notebook-{{ version }}.tar.gz
-  sha256: 392fd501e266f2fb3466c6fcd3331163a2184968cb5c5accf90292e01dfe528c
+  sha256: 7c2c4ea245913c3ad8ab3e5d36b34a842c06e524556f5c2e1f5d7d08c986615e
 
 build:
   number: 0
